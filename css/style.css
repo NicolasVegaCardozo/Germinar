@@ -146,6 +146,7 @@ main h2 {
 
 
 .imagenes {
+    width: 32%;
     display: grid;
     grid-template-columns: auto auto auto;    
 }
