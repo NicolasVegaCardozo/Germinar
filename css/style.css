@@ -10,7 +10,7 @@ ul {
 }
 
 a {
-    text-decoration: none;    
+    text-decoration: none;
 }
 
 /*---Body---*/
@@ -28,17 +28,17 @@ header {
     color: white;
 }
 
-header img{
+header img {
     width: 6rem;
     height: 5rem;
 }
 
-header nav ul{
+header nav ul {
     display: flex;
     gap: 30px;
 }
 
-header nav ul li a{
+header nav ul li a {
     color: white;
 }
 
@@ -79,6 +79,7 @@ main {
     color: black;
 }
 
+/*
 .portada img {
     width: 100%;
     height: auto;
@@ -107,7 +108,7 @@ main {
 
 /*---Portada---*/
 
-main h2{
+main h2 {
     text-align: center;
 
 }
@@ -127,12 +128,14 @@ main h2{
 }
 
 
-.portada h1{
-font-size: 3rem;
+.portada h1 {
+    font-size: 3rem;
+    text-shadow: 3px 3px 4px black, 0 0 2em black, 0 0 1em black;
 }
 
-.portada p{
+.portada p {
     font-size: 1.5rem;
+    text-shadow: 3px 3px 4px black, 0 0 2em black, 0 0 1em black;
 }
 
 .promos0 {
@@ -234,12 +237,14 @@ main ul li {
 }
 
 
-.portada2 h1{
-font-size: 3rem;
+.portada2 h1 {
+    font-size: 3rem;
+    text-shadow: 3px 3px 4px black, 0 0 2em black, 0 0 1em black;
 }
 
-.portada2 p{
+.portada2 p {
     font-size: 1.5rem;
+    text-shadow: 3px 3px 4px black, 0 0 2em black, 0 0 1em black;
 }
 
 .main2 {
@@ -255,16 +260,16 @@ font-size: 3rem;
 
 }
 
-.nuestromenu{
+.nuestromenu {
     width: 80%;
     margin: 0 auto;
     background: lightyellow;
-    display:grid;
+    display: grid;
     grid-template-columns: auto auto;
 }
 
 
-.caja{
+.caja {
     background-color: #ffc8dd;
     border: 2px solid #e63946;
     margin: 10px;
@@ -274,7 +279,7 @@ font-size: 3rem;
     height: 90%;
 }
 
-.cajadelacaja{
+.cajadelacaja {
     width: 100%;
     height: 80%;
 }
@@ -292,16 +297,18 @@ font-size: 3rem;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    color: black;
+    color: white;
 }
 
 
-.portada3 h1{
-font-size: 3rem;
+.portada3 h1 {
+    font-size: 3rem;
+    text-shadow: 3px 3px 4px black, 0 0 2em black, 0 0 1em black;
 }
 
-.portada3 p{
+.portada3 p {
     font-size: 1.5rem;
+    text-shadow: 3px 3px 4px black, 0 0 2em black, 0 0 1em black;
 }
 
 .section3 {
@@ -309,7 +316,7 @@ font-size: 3rem;
     justify-content: center;
 }
 
-.section3 div{
+.section3 div {
     width: 30vw;
 }
 
@@ -375,6 +382,7 @@ font-size: 3rem;
 .form input[type="submit"]:hover {
     color: orangered;
 }
+
 .map {
     display: flex;
     justify-content: center;
@@ -398,12 +406,14 @@ font-size: 3rem;
 }
 
 
-.portada4 h1{
-font-size: 3rem;
+.portada4 h1 {
+    font-size: 3rem;
+    text-shadow: 3px 3px 4px black, 0 0 2em black, 0 0 1em black;
 }
 
-.portada4 p{
+.portada4 p {
     font-size: 1.5rem;
+    text-shadow: 3px 3px 4px black, 0 0 2em black, 0 0 1em black;
 }
 
 .main4 {
@@ -435,16 +445,18 @@ font-size: 3rem;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    color: black;
+    color: white;
 }
 
 
-.portada5 h1{
-font-size: 3rem;
+.portada5 h1 {
+    font-size: 3rem;
+    text-shadow: 3px 3px 4px black, 0 0 2em black, 0 0 1em black;
 }
 
-.portada5 p{
+.portada5 p {
     font-size: 1.5rem;
+    text-shadow: 3px 3px 4px black, 0 0 2em black, 0 0 1em black;
 }
 
 .main5 {
@@ -457,7 +469,7 @@ font-size: 3rem;
     justify-content: center;
 }
 
-.somosgerminar{
+.somosgerminar {
     text-align: center;
     padding: 20px;
 }
@@ -525,8 +537,3 @@ footer ul li {
     justify-content: center;
     color: #e63946;
 }
-
-
-
-
-
