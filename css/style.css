@@ -1,0 +1,532 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+ol,
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;    
+}
+
+/*---Body---*/
+
+/*---Header---*/
+
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3a5a40;
+    padding: 5px 50px;
+    color: white;
+}
+
+header img{
+    width: 6rem;
+    height: 5rem;
+}
+
+header nav ul{
+    display: flex;
+    gap: 30px;
+}
+
+header nav ul li a{
+    color: white;
+}
+
+nav img {
+    width: 7rem;
+    height: 6rem;
+}
+
+.navegacion2:hover {
+    color: orangered;
+}
+
+@media (max-width:1200px) {
+    header nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul li {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 5px;
+    }
+}
+
+
+/*---Main---*/
+
+h2 {
+    text-align: center;
+    padding: 1%;
+}
+
+main {
+    background-color: white;
+    color: black;
+}
+
+.portada img {
+    width: 100%;
+    height: auto;
+}
+
+.texto-portada {
+    position: absolute;
+    top: 90vh;
+    left: 20vw;
+    transform: translate(-50%, -50%);
+    font-size: 4rem;
+    color: white;
+}
+
+.texto-portada2 {
+    position: absolute;
+    top: 90vh;
+    left: 20vw;
+    transform: translate(-50%, -50%);
+    font-size: 4rem;
+    color: black;
+}
+
+
+/*---Main-index---*/
+
+/*---Portada---*/
+
+main h2{
+    text-align: center;
+
+}
+
+.portada {
+    background-image: url(../img/bowl2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+
+.portada h1{
+font-size: 3rem;
+}
+
+.portada p{
+    font-size: 1.5rem;
+}
+
+.promos0 {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.promos0 img {
+    margin-top: 1rem;
+    width: 5rem;
+    height: 5rem;
+}
+
+.promos {
+    display: flex;
+    justify-content: space-around;
+    font-weight: bolder;
+    padding: 0%;
+}
+
+.promos1 {
+    margin-left: 1.5rem;
+}
+
+.promos2 {
+    margin-left: 1rem;
+}
+
+.promos3 {
+    margin-left: 1rem;
+}
+
+.imagenes img {
+    width: 32%;
+    display: inline-block;
+    margin-top: 0.5%;
+    margin-right: 0.5%;
+    margin-bottom: 0.5%;
+    margin-left: 0.5%;
+}
+
+main ul li {
+    display: inline-block;
+    padding: 2em;
+}
+
+
+.span {
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.span input:not([type="submit"]) {
+    padding: 0.5rem;
+    border: 1.5px solid #3a5a40;
+    border-radius: 5px;
+    margin-bottom: 0.5rem;
+    color: black;
+    font-size: 1rem;
+}
+
+
+.span input[type="button"] {
+    border-radius: 5px;
+    background-color: #3a5a40;
+    color: white;
+    font-weight: bolder;
+    font-size: 1rem;
+    padding: 0.5rem 2rem;
+    cursor: pointer;
+}
+
+.span input[type="button"]:hover {
+    color: orangered;
+}
+
+
+.logogerminar {
+    display: flex;
+    justify-content: center;
+}
+
+/*---Main-nuestromenu---*/
+
+.portada2 {
+    background-image: url(../img/nuestro\ menu.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+
+.portada2 h1{
+font-size: 3rem;
+}
+
+.portada2 p{
+    font-size: 1.5rem;
+}
+
+.main2 {
+    padding: 0;
+}
+
+.menu div h3 {
+    display: inline-block;
+}
+
+.fotos img {
+    width: 50%;
+
+}
+
+.nuestromenu{
+    width: 80%;
+    margin: 0 auto;
+    background: lightyellow;
+    display:grid;
+    grid-template-columns: auto auto;
+}
+
+
+.caja{
+    background-color: #ffc8dd;
+    border: 2px solid #e63946;
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    font-weight: bold;
+    height: 90%;
+}
+
+.cajadelacaja{
+    width: 100%;
+    height: 80%;
+}
+
+/*---Main-contacto---*/
+
+.portada3 {
+    background-image: url(../img/pastel\ de\ papas.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+
+
+.portada3 h1{
+font-size: 3rem;
+}
+
+.portada3 p{
+    font-size: 1.5rem;
+}
+
+.section3 {
+    display: flex;
+    justify-content: center;
+}
+
+.section3 div{
+    width: 30vw;
+}
+
+.main3 {
+    padding: 0%;
+}
+
+.div0 ul li {
+    display: block;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    box-sizing: content-box;
+}
+
+.form {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.form label {
+    font-weight: bold;
+    display: block;
+    font-size: 14px;
+    margin-bottom: .3rem;
+}
+
+.form input {
+    display: block;
+    width: 30vw;
+}
+
+.form input:not([type="submit"]) {
+    padding: 1rem;
+    border: 1.5px solid #3a5a40;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+    color: black;
+    font-size: 16px;
+}
+
+.form textarea {
+    width: 30vw;
+    height: 20vh;
+    padding: 1rem;
+    border: 1.5px solid #3a5a40;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+    color: black;
+    font-size: 16px;
+}
+
+.form input[type="submit"] {
+    border-radius: 5px;
+    background-color: #3a5a40;
+    color: white;
+    font-weight: bolder;
+    font-size: 1rem;
+    padding: 1.5rem 3rem;
+    cursor: pointer;
+    width: 32.5vw;
+}
+
+.form input[type="submit"]:hover {
+    color: orangered;
+}
+.map {
+    display: flex;
+    justify-content: center;
+
+}
+
+/*---Main-envios---*/
+
+.portada4 {
+    background-image: url(../img/vianda\ envios.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+
+.portada4 h1{
+font-size: 3rem;
+}
+
+.portada4 p{
+    font-size: 1.5rem;
+}
+
+.main4 {
+    padding: 0%;
+}
+
+.delivery {
+    display: flex;
+    justify-content: center;
+}
+
+.delivery img {
+    width: 50%;
+    height: 50%;
+    margin-top: 3rem;
+}
+
+
+/*---Main-somosgerminar---*/
+
+.portada5 {
+    background-image: url(../img/somos\ germinar.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+
+
+.portada5 h1{
+font-size: 3rem;
+}
+
+.portada5 p{
+    font-size: 1.5rem;
+}
+
+.main5 {
+    padding: 0%;
+}
+
+.video {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.somosgerminar{
+    text-align: center;
+    padding: 20px;
+}
+
+
+/*---Footer---*/
+
+
+footer {
+    background-color: #ffc8dd;
+    padding: 40px 0px;
+}
+
+footer h3 {
+    margin-left: 10%;
+    color: #e63946;
+
+}
+
+footer a {
+    text-decoration: none;
+    color: #e63946;
+}
+
+footer ul li {
+    display: block;
+    padding: 1%;
+    color: #e63946;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+}
+
+.div1 {
+    display: inline-block;
+    margin-top: 2em;
+    margin-right: 2em;
+    margin-bottom: 2em;
+    margin-left: 2em;
+    color: #e63946;
+}
+
+.div2 {
+    display: inline-block;
+    margin-top: 2em;
+    margin-right: 2em;
+    margin-bottom: 2em;
+    margin-left: 2em;
+    color: #e63946;
+}
+
+.div3 {
+    display: inline-block;
+    margin-top: 2em;
+    margin-right: 2em;
+    margin-bottom: 2em;
+    margin-left: 2em;
+    color: #e63946
+}
+
+.span2 {
+    display: flex;
+    justify-content: center;
+    color: #e63946;
+}
+
+
+
+
+
