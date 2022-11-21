@@ -144,26 +144,14 @@ main h2 {
     margin-left: 1rem;
 }
 
-/*
-.imagenes {
+.imagenes img {
     width: 32%;
-    display: grid;
-    grid-template-columns: auto auto auto;    
+    display: inline-block;
+    margin-top: 0.5%;
+    margin-right: 0.5%;
+    margin-bottom: 0.5%;
+    margin-left: 0.5%;
 }
-*/
-
-.cajaimagenes {
-    margin: 10px;
-    padding: 10px;
-}
-
-/*
-.imagenes img{
-    display: flex;
-    flex-direction: row;
-}
-*/
-
 main ul li {
     display: inline-block;
     padding: 2em;
