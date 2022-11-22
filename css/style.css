@@ -51,22 +51,6 @@ nav img {
     color: orangered;
 }
 
-@media (max-width:1200px) {
-    header nav {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    nav ul li {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        padding: 5px;
-    }
-}
-
-
 /*---Main---*/
 
 h2 {
